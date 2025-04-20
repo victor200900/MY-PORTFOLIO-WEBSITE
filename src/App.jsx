@@ -1,4 +1,5 @@
 import React from 'react'
+import "./App.css"
 
 import Sidebar from "./components/sidebar/Sidebar"
 import Home from './components/home/home'
@@ -13,6 +14,7 @@ import Pricing from './components/pricing/pricing'
 const App = () => {
   return (
     <>
+    <div className='all'>
     <Sidebar/>
   
     <div>
@@ -26,6 +28,7 @@ const App = () => {
       <Testimonial/>
       <Blog/>
       <Pricing/>
+    </div>
     </div>
     </>
   )
