@@ -1,0 +1,54 @@
+
+.navbar-brand{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bolder;
+}
+ .nav__item{
+   margin-top: 50px;
+   height: 30px;
+  
+ }
+ a{
+   font-size: larger;
+   color: white;
+   text-decoration: none;
+ }
+ a:hover{
+   color:red;
+ }
+ .menu-toggle{
+   margin-left: 69px;
+   color: blue;
+ }
+
+
+ .aside {
+   position: fixed;
+   left: -250px;
+   top: 0;
+   height: 100%;
+   width: 200px;
+   background: grey;
+   transition: 0.3s ease;
+   z-index: 999;
+   padding: 1rem;
+ }
+ 
+ .aside.open {
+   left: 0;
+ }
+ 
+ .menu-toggle {
+   position: fixed;
+   top: 20px;
+   left: 20px;
+   background: #111;
+   color: white;
+   border: none;
+   padding: 0.5rem 0.7rem;
+   font-size: 1.2rem;
+   cursor: pointer;
+   z-index: 1000;
+   border-radius: 4px;
+ }
+ 
