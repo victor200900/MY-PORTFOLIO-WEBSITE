@@ -21,7 +21,7 @@ const Services = () => {
           {/* Service 2 */}
           <div className="col-md-4">
             <div className="service-card">
-              <h5 className="service-title">UI/UX Design</h5>
+              <h5 className="service-title">Backend development</h5>
               <p className="service-desc">
                 Clean and user-friendly interface designs with a focus on smooth user experience.
               </p>

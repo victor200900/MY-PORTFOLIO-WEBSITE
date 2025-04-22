@@ -3,16 +3,27 @@
     height: 250px;
     border-radius: 50%;
     margin-top: 20px;
-}
-:hover .home__img{
-    transform: scale(1.1);
-    transition: 0.1s;
+    margin-left: 48px;
+    
+
 }
 .home__name{
     color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    
 }
 .home__education{
     color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 900px;
+    height: 900px;
 }

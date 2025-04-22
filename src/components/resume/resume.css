@@ -11,3 +11,12 @@
     border-left: 3px solid aquamarine !important;
   }
   
+  .container{
+    color: white;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .text-primary{
+    color:aquamarine !important;
+  }
