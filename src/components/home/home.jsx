@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css"
 const home = () => {
   return (
-    <section className='home-container' id="home">
+    <section className='home-container flex' id="home">
       <div>
         <img src="src/assets/pfp.jpg" alt="" className='home__img'/>
         </div>
