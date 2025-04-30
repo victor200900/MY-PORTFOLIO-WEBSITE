@@ -8,14 +8,7 @@ font-weight: bolder;
    height: 30px;
   
  }
- a{
-   font-size: larger;
-   color: white;
-   text-decoration: none;
- }
- a:hover{
-   color:red;
- }
+ 
  .menu-toggle{
    margin-left: 69px;
    color: blue;
@@ -46,7 +39,7 @@ font-weight: bolder;
    color: white;
    border: none;
    padding: 0.5rem 0.7rem;
-   font-size: 1.2rem;
+   
    cursor: pointer;
    z-index: 1000;
    border-radius: 4px;

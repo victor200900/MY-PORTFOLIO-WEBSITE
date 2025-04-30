@@ -2,10 +2,14 @@ import React from 'react'
 import "./home.css"
 const home = () => {
   return (
-    <section className='home container' id="home">
+    <section className='home-container' id="home">
+      <div>
         <img src="src/assets/pfp.jpg" alt="" className='home__img'/>
-        <h1 className='home__name'>Akpan victor Edikan</h1>
-        <span className='home__education'>am a full stack software developer</span>
+        </div>
+        <div className='about'>
+        <h1 className='home__name'>Hi,My name is Akpan Victor Edikan</h1>
+        <span className='home__education'>I am a full stack software developer</span>
+        </div>
     </section>
   )
 }

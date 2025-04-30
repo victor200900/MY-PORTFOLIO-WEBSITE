@@ -1,5 +1,5 @@
 import React from 'react';
-import './sidebar.css';
+import './navbar.css';
 
 const Navbar = () => {
   return (
@@ -22,22 +22,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
           <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
             <li className="nav-item">
-              <a className="nav-link text-white" href="#home">Home</a>
+              <a className="nav-link text-white" href="#home" id='nav'>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">About</a>
+              <a className="nav-link text-white" href="#about" id='nav'>About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#services">Services</a>
+              <a className="nav-link text-white" href="#services" id='nav'>Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#resume">Resume</a>
+              <a className="nav-link text-white" href="#resume" id='nav'>Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#portfolio">Portfolio</a>
+              <a className="nav-link text-white" href="#portfolio" id='nav'>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#contact">Contact</a>
+              <a className="nav-link text-white" href="#contact" id='nav'>Contact</a>
             </li>
           </ul>
         </div>
