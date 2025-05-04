@@ -3,6 +3,7 @@ import './services.css';
 
 const Services = () => {
   return (
+    <>
     <section className="services-section py-5" id="services">
       <div className="container">
         <h2 className="text-center mb-5 section-title">My Services</h2>
@@ -38,8 +39,10 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <hr />
       </div>
     </section>
+  </>
   );
 };
 

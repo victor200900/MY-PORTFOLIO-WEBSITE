@@ -9,14 +9,14 @@
 
 }
 .home__name{
-    color: aquamarine;
+    color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     font-weight: bolder;
     
 }
 .home__education{
-    color: aquamarine;
+    color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
@@ -29,12 +29,12 @@
     height: 900px;
 }
 .home-container{
-    backdrop-filter: blur(15px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    
+    
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: slideUp 0.6s ease forwards;
     padding: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    
     
     justify-content: space-evenly;
 }

@@ -3,7 +3,7 @@ import './navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3 fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand fw-bold" href="#">Akpan Victor</a>
 
