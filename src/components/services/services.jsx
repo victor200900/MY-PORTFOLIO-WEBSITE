@@ -3,46 +3,42 @@ import './services.css';
 
 const Services = () => {
   return (
-    <>
-    <section className="services-section py-5" id="services">
+    <section className="services-anime-section py-5" id="services">
       <div className="container">
-        <h2 className="text-center mb-5 section-title">My Services</h2>
+        <h2 className="text-center mb-5 section-title text-glow">私のサービス</h2>
 
         <div className="row g-4">
-          {/* Service 1 */}
           <div className="col-md-4">
-            <div className="service-card">
-              <h5 className="service-title">Web Development</h5>
+            <div className="anime-service-card neon-glow">
+              <h5 className="service-title">🌐 Web Development</h5>
               <p className="service-desc">
-                Responsive and elegant websites built with React, Bootstrap, and modern web technologies.
+                Beautiful, responsive websites crafted with React, Bootstrap, and the spirit of a true weeb.
               </p>
             </div>
           </div>
 
-          {/* Service 2 */}
           <div className="col-md-4">
-            <div className="service-card">
-              <h5 className="service-title">Backend development</h5>
+            <div className="anime-service-card neon-glow">
+              <h5 className="service-title">🧠 Backend Development</h5>
               <p className="service-desc">
-                Clean and user-friendly interface designs with a focus on smooth user experience.
+                Clean APIs and powerful servers — as reliable as a shonen protagonist’s will.
               </p>
             </div>
           </div>
 
-          {/* Service 3 */}
           <div className="col-md-4">
-            <div className="service-card">
-              <h5 className="service-title">Frontend Development</h5>
+            <div className="anime-service-card neon-glow">
+              <h5 className="service-title">🎨 Frontend Development</h5>
               <p className="service-desc">
-                Building dynamic frontends using ReactJS, JavaScript, and responsive design techniques.
+                Interactive UIs that look like they were designed in a futuristic anime control panel.
               </p>
             </div>
           </div>
         </div>
-        <hr />
+
+        <hr className="glow-divider" />
       </div>
     </section>
-  </>
   );
 };
 

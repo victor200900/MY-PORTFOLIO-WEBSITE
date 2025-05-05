@@ -65,47 +65,57 @@ const styles = {
   card: {
     background: '#ffffff',
     padding: '30px',
-    borderRadius: '16px',
-    boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
+    borderRadius: '20px', // Anime soft rounded corners
+    boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
     width: '100%',
     maxWidth: '500px',
+    border: '1px solid #ddd', // Soft border for card
   },
   title: {
     marginBottom: '24px',
     textAlign: 'center',
-    fontSize: '1.8rem',
-    color: '#0077b6',
+    fontSize: '2rem', // Larger text for anime style
+    color: '#6A5ACD', // Anime soft purple
   },
   field: {
-    marginBottom: '18px',
+    marginBottom: '20px', // More spacing between fields for a cleaner look
   },
   label: {
     display: 'block',
     marginBottom: '6px',
     fontWeight: 'bold',
-    fontSize: '0.95rem',
-    color: '#333',
+    fontSize: '1rem',
+    color: '#444',
   },
   input: {
     width: '100%',
-    padding: '10px 14px',
+    padding: '12px 16px',
     border: '1px solid #ccc',
-    borderRadius: '8px',
+    borderRadius: '12px', // Soft rounded edges
     fontSize: '1rem',
     outline: 'none',
-    transition: 'border-color 0.3s',
+    transition: 'border-color 0.3s, box-shadow 0.3s',
+    background: 'rgba(255, 255, 255, 0.8)', // Light background to match anime aesthetics
+  },
+  inputFocus: {
+    borderColor: '#6A5ACD', // Purple border on focus
+    boxShadow: '0 0 5px rgba(106, 90, 205, 0.7)', // Soft purple glow
   },
   button: {
     width: '100%',
-    padding: '12px',
-    background: '#0077b6',
+    padding: '14px',
+    background: '#6A5ACD', // Anime purple
     color: 'white',
     fontWeight: 'bold',
     border: 'none',
-    borderRadius: '10px',
-    fontSize: '1rem',
+    borderRadius: '12px',
+    fontSize: '1.2rem',
     cursor: 'pointer',
-    transition: 'background 0.3s',
+    transition: 'background 0.3s, transform 0.3s',
+  },
+  buttonHover: {
+    background: '#4B3F87', // Darker purple on hover
+    transform: 'scale(1.05)', // Button scaling effect
   }
 };
 

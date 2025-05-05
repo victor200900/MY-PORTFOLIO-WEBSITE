@@ -1,63 +1,46 @@
-
-.navbar-brand{
-font-family: 'Courier New', Courier, monospace;
-font-weight: bolder;
-color: black;
+/* Background gradient for anime theme */
+.bg-anime {
+  background: linear-gradient(45deg, #0f0f0f, #501b6c, #0d2365);
+  background-size: 300% 300%;
+  animation: animeBgAnimation 3s ease infinite;
 }
-.navbar-brand:hover{
-  color: darkgreen;
+
+/* Keyframes for background animation */
+@keyframes animeBgAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
- .nav__item{
-   margin-top: 50px;
-   height: 30px;
-   font-weight: 900 !important;
-  
- }
- 
- .menu-toggle{
-   margin-left: 69px;
-   color: blue;
- }
 
+/* Font style for anime aesthetic */
+.anime-font {
+  font-family: 'Press Start 2P', cursive; /* Retro anime font */
+  font-size: 1.8rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
 
- .aside {
-   position: fixed;
-   left: -250px;
-   top: 0;
-   height: 100%;
-   width: 200px;
-   background: grey;
-   transition: 0.3s ease;
-   z-index: 999;
-   padding: 1rem;
- }
- 
- .aside.open {
-   left: 0;
- }
- 
- .menu-toggle {
-   position: fixed;
-   top: 20px;
-   left: 20px;
-   background: #111;
-   color: black;
-   border: none;
-   padding: 0.5rem 0.7rem;
-   
-   cursor: pointer;
-   z-index: 1000;
-   border-radius: 4px;
- }
- .navbar{
-  background: rgb(255, 255, 255)!important;
-  
-  
-  
- }
- 
- #nav{
-  color: black!important;
- }
- 
- 
+/* Hover effect for navbar items */
+.anime-hover:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(106, 90, 205, 0.9);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Custom nav link styles */
+#nav {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+/* Toggler icon color */
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Anime text shadow for navbar brand */
+.navbar-brand {
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff6ec7, 0 0 30px #f7a7b6;
+}
