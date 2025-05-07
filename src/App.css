@@ -1,4 +1,14 @@
 .all{
-    background: linear-gradient(145deg, #0e0e2c, #1c1c3a);
+    /* background: linear-gradient(145deg, #0e0e2c, #1c1c3a); */
+    background-image: url(../public/images.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:  no-repeat;
+    color: white;
     
 }
+.all1{
+    font-family: 'Courier New', Courier, monospace;
+}
+

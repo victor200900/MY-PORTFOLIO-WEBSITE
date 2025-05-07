@@ -9,7 +9,7 @@ const ContactForm = () => {
   return (
     <div style={styles.wrapper}>
       <div style={styles.card}>
-        <h2 style={styles.title}>Contact Me</h2>
+        <h2 className='text-center glowing-title mb-5' style={styles.title}>Contact Me</h2>
         <form onSubmit={handleSubmit}>
           <div style={styles.field}>
             <label htmlFor="name" style={styles.label}>Your Name</label>
@@ -63,19 +63,19 @@ const styles = {
     padding: '20px',
   },
   card: {
-    background: '#ffffff',
+    background: 'rgba(0, 0, 0, 0.46)',
     padding: '30px',
     borderRadius: '20px', // Anime soft rounded corners
     boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
     width: '100%',
     maxWidth: '500px',
-    border: '1px solid #ddd', // Soft border for card
+    border: '1px solid #132A46', // Soft border for card
   },
   title: {
     marginBottom: '24px',
     textAlign: 'center',
     fontSize: '2rem', // Larger text for anime style
-    color: '#6A5ACD', // Anime soft purple
+    
   },
   field: {
     marginBottom: '20px', // More spacing between fields for a cleaner look
@@ -84,8 +84,9 @@ const styles = {
     display: 'block',
     marginBottom: '6px',
     fontWeight: 'bold',
-    fontSize: '1rem',
-    color: '#444',
+    fontSize: '17px',
+    color: 'white',
+    
   },
   input: {
     width: '100%',
@@ -95,7 +96,7 @@ const styles = {
     fontSize: '1rem',
     outline: 'none',
     transition: 'border-color 0.3s, box-shadow 0.3s',
-    background: 'rgba(255, 255, 255, 0.8)', // Light background to match anime aesthetics
+    background: '#2C255B', // Light background to match anime aesthetics
   },
   inputFocus: {
     borderColor: '#6A5ACD', // Purple border on focus
@@ -110,13 +111,8 @@ const styles = {
     border: 'none',
     borderRadius: '12px',
     fontSize: '1.2rem',
-    cursor: 'pointer',
     transition: 'background 0.3s, transform 0.3s',
   },
-  buttonHover: {
-    background: '#4B3F87', // Darker purple on hover
-    transform: 'scale(1.05)', // Button scaling effect
-  }
 };
 
 export default ContactForm;

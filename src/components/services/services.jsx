@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="services-anime-section py-5" id="services">
       <div className="container">
-        <h2 className="text-center mb-5 section-title text-glow">私のサービス</h2>
+        <h2 className="text-center mb-5 section-title text-glow">My services</h2>
 
         <div className="row g-4">
           <div className="col-md-4">

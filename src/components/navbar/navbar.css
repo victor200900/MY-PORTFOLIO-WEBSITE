@@ -1,8 +1,12 @@
 /* Background gradient for anime theme */
 .bg-anime {
-  background: linear-gradient(45deg, #0f0f0f, #501b6c, #0d2365);
+  background: linear-gradient(45deg, #07526e, #3f0161,#021d5a );
   background-size: 300% 300%;
   animation: animeBgAnimation 3s ease infinite;
+  border-radius: 2px;
+  height: 60px;
+
+
 }
 
 /* Keyframes for background animation */
@@ -14,10 +18,10 @@
 
 /* Font style for anime aesthetic */
 .anime-font {
-  font-family: 'Press Start 2P', cursive; /* Retro anime font */
   font-size: 1.8rem;
   color: #fff;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 /* Hover effect for navbar items */
@@ -29,16 +33,11 @@
 
 /* Custom nav link styles */
 #nav {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 15px;
   text-transform: uppercase;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
-/* Toggler icon color */
-.navbar-toggler-icon {
-  background-color: #fff;
-}
 
 /* Anime text shadow for navbar brand */
 .navbar-brand {

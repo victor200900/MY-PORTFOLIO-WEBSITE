@@ -14,18 +14,20 @@
 }
 
 .text-glow {
-  color: #00f0ff;
+  color: white;
   text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .anime-service-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.511);
   border: 1px solid #2c2f33;
   border-radius: 12px;
   padding: 25px;
   transition: all 0.3s ease;
   position: relative;
 }
+
 
 .anime-service-card:hover {
   transform: translateY(-5px) scale(1.02);
@@ -34,14 +36,16 @@
 
 .service-title {
   font-size: 1.3rem;
-  color: #f0a500;
+  color: rgb(159, 169, 255);
   margin-bottom: 12px;
 }
 
 .service-desc {
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #ccc;
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .neon-glow {

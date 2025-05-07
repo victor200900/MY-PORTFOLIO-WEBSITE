@@ -7,19 +7,23 @@
   border-radius: 12px;
   padding: 40px;
   box-shadow: 0 0 20px #00f0ff33;
+  
 }
 
 .glowing-title {
-  color: #0ff;
+  color: white;
   text-shadow: 0 0 5px #0ff, 0 0 20px #0ff;
   letter-spacing: 3px;
+  
 }
+
 
 .anime-heading {
   color: #ff6bcb;
   text-shadow: 0 0 6px #ff6bcb88;
   margin-bottom: 20px;
 }
+
 
 .timeline {
   position: relative;
@@ -33,6 +37,7 @@
   animation: fadeIn 1s ease;
 }
 
+
 .timeline-dot {
   width: 12px;
   height: 12px;
@@ -44,12 +49,14 @@
   box-shadow: 0 0 10px #7f5af0;
 }
 
+
 .timeline-content {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.366);
   padding: 15px 20px;
   border-radius: 10px;
   transition: 0.3s ease;
   border: 1px solid #7f5af0;
+
 }
 
 .timeline-content:hover {
@@ -65,7 +72,9 @@
 .anime-list {
   list-style: none;
   padding-left: 0;
+  background: rgba(0, 0, 0, 0.366);
 }
+
 
 .anime-list li {
   padding: 10px;
@@ -73,7 +82,9 @@
   background: rgba(127, 90, 240, 0.1);
   border-left: 4px solid #7f5af0;
   transition: 0.3s;
+  background: rgba(0, 0, 0, 0.366);
 }
+
 
 .anime-list li:hover {
   background: rgba(127, 90, 240, 0.2);

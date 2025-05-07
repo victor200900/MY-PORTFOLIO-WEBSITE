@@ -11,6 +11,7 @@ import Testimonial from './components/testimonials/testimonial'
 import Blog from './components/blog/blog'
 import Pricing from './components/pricing/pricing'
 import Footer from './components/footer/footer'
+import Connect from './components/connect/connect'
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
       <Resume/>
       <Portfolio/>
       <Contact/>
+      <Connect/>
       <Testimonial/>
       <Blog/>
       <Pricing/>
