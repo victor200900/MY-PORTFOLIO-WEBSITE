@@ -9,8 +9,8 @@ const Home = () => {
         <img src="src/assets/pfp.jpg" alt="Victor" className="anime-avatar" />
         <div className="anime-text">
           <h1 className="anime-name">Hi, My name is Akpan Victor</h1>
-          <h2 className="anime-title">Full Stack Developer & Anime Enthusiast</h2>
-          <p className="anime-quote">“Quiet like Houtarou. Ambitious like Jinwoo.”</p>
+          <h2 className="anime-title">Full Stack Software Developer </h2>
+          <p className="anime-quote">“I am a passionate individual.”</p>
         </div>
       </div>
     </section>

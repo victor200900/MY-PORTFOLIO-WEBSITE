@@ -34,7 +34,7 @@ const Navbar = () => {
               <a className="nav-link text-white anime-hover" href="#resume" id='nav'>Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#portfolio" id='nav'>Portfolio</a>
+              <a className="nav-link text-white anime-hover" href="#connect" id='nav'>Connect</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white anime-hover" href="#contact" id='nav'>Contact</a>

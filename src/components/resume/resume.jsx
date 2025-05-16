@@ -2,8 +2,11 @@ import React from 'react';
 import './resume.css';
 
 const ResumeSection = () => {
+
+
   return (
     <div className="anime-resume container py-5" id="resume">
+      <br />
       <h2 className="text-center glowing-title mb-5">📜 RESUME</h2>
 
       <div className="row g-4">
@@ -50,7 +53,13 @@ const ResumeSection = () => {
         <div className="col-md-6">
           <h4 className="anime-heading">📄 Certifications</h4>
           <ul className="anime-list">
-            <li>Responsive Web Design – freeCodeCamp</li>
+           <a
+        href="https://drive.google.com/file/d/1fPqWSYB49YjOcpJMlmYU-4fZICFxaH9m/view?usp=drive_link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+           <li>Responsive Web Design – freeCodeCamp</li>
+           </a>
             <li>JavaScript Algorithms – freeCodeCamp</li>
             <li>Frontend Development – XYZ Bootcamp</li>
           </ul>

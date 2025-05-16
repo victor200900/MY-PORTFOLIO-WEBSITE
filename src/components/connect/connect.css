@@ -15,8 +15,10 @@
 .but{
     background-color: rgba(63, 63, 203, 0.635);
     border-color: white;
+    bor
     border-radius: 30px;
     color: white;
+    
     transition: transform 0.7s ease-in-out;
 }
 .but:hover{

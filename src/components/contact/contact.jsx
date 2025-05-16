@@ -3,11 +3,21 @@ import React from 'react';
 const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('No endpoint set up, but form captured!');
+    const name = e.target.name.value;
+    const phone = e.target.phone.value;
+    const message = e.target.message.value;
+
+    const text = `Hello, I'm ${name}.\nPhone: ${phone}\n\n${message}`;
+    const encodedText = encodeURIComponent(text);
+
+    // Replace with your actual WhatsApp number (no "+" or leading zeros, include country code)
+    const whatsappURL = `https://wa.me/23407045939049?text=${encodedText}`;
+
+    window.open(whatsappURL, '_blank');
   };
 
   return (
-    <div style={styles.wrapper}>
+    <div style={styles.wrapper} id='contact'>
       <div style={styles.card}>
         <h2 className='text-center glowing-title mb-5' style={styles.title}>Contact Me</h2>
         <form onSubmit={handleSubmit}>
@@ -23,17 +33,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div style={styles.field}>
-            <label htmlFor="email" style={styles.label}>Email Address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="you@example.com"
-              required
-              style={styles.input}
-            />
-          </div>
+        
 
           <div style={styles.field}>
             <label htmlFor="message" style={styles.label}>Your Message</label>
@@ -47,7 +47,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <button type="submit" style={styles.button}>Send Message</button>
+          <button type="submit" style={styles.button}>Send via WhatsApp</button>
         </form>
       </div>
     </div>
@@ -65,20 +65,19 @@ const styles = {
   card: {
     background: 'rgba(0, 0, 0, 0.46)',
     padding: '30px',
-    borderRadius: '20px', // Anime soft rounded corners
+    borderRadius: '20px',
     boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
     width: '100%',
     maxWidth: '500px',
-    border: '1px solid #132A46', // Soft border for card
+    border: '1px solid #132A46',
   },
   title: {
     marginBottom: '24px',
     textAlign: 'center',
-    fontSize: '2rem', // Larger text for anime style
-    
+    fontSize: '2rem',
   },
   field: {
-    marginBottom: '20px', // More spacing between fields for a cleaner look
+    marginBottom: '20px',
   },
   label: {
     display: 'block',
@@ -86,26 +85,22 @@ const styles = {
     fontWeight: 'bold',
     fontSize: '17px',
     color: 'white',
-    
   },
   input: {
     width: '100%',
     padding: '12px 16px',
     border: '1px solid #ccc',
-    borderRadius: '12px', // Soft rounded edges
+    borderRadius: '12px',
     fontSize: '1rem',
     outline: 'none',
     transition: 'border-color 0.3s, box-shadow 0.3s',
-    background: '#2C255B', // Light background to match anime aesthetics
-  },
-  inputFocus: {
-    borderColor: '#6A5ACD', // Purple border on focus
-    boxShadow: '0 0 5px rgba(106, 90, 205, 0.7)', // Soft purple glow
+    background: '#2C255B',
+    color: 'white',
   },
   button: {
     width: '100%',
     padding: '14px',
-    background: '#6A5ACD', // Anime purple
+    background: '#6A5ACD',
     color: 'white',
     fontWeight: 'bold',
     border: 'none',

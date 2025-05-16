@@ -3,13 +3,14 @@ import './connect.css'
 const connect = () => {
   return (
     <>
-    <div className='over'>
+    <div className='over' id='connect'>
     <div className='ddd'>
         <div className='conect'>
         <h2>Let's Connect here</h2>
         </div>
         <div>
-        <button className='but'>let's Work together -> </button>
+       <a href="https://www.linkedin.com/in/akpan-victor-119139355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+        rel="noopener noreferrer"><button className='but'>let's Work together  </button></a>
         <a href=""><img src="" alt="" /></a>
         <a href=""><img src="" alt="" /></a>
         <a href=""><img src="" alt="" /></a>
@@ -27,7 +28,7 @@ const connect = () => {
             <h4 className='head'>Contact</h4>
             <p>+2347045939049 <br />
             vakpan462@gmail.com <br />
-            7,ogunbadejo str , shomolu
+            7,ogunbadejo str,shomolu Lagos
             </p>
 
         </div>

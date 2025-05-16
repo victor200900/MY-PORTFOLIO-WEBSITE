@@ -1,4 +1,15 @@
 .footer{
     background: rgba(38, 2, 72, 0.534);
     padding: 2px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.icon{
+    display:flex;
+    justify-content: space-evenly;
+}
+.icons{
+    height: 30px;
+    width: 30px;
 }
