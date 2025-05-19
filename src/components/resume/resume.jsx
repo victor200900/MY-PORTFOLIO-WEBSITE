@@ -53,15 +53,13 @@ const ResumeSection = () => {
         <div className="col-md-6">
           <h4 className="anime-heading">📄 Certifications</h4>
           <ul className="anime-list">
-           <a
+           <a id='link'
         href="https://drive.google.com/file/d/1fPqWSYB49YjOcpJMlmYU-4fZICFxaH9m/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         >
-           <li>Responsive Web Design – freeCodeCamp</li>
+           <li>Full stack software-development - Gomycode</li>
            </a>
-            <li>JavaScript Algorithms – freeCodeCamp</li>
-            <li>Frontend Development – XYZ Bootcamp</li>
           </ul>
         </div>
       </div>

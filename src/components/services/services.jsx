@@ -3,41 +3,27 @@ import './services.css';
 
 const Services = () => {
   return (
-    <section className="services-anime-section py-5" id="services">
-      <br />
+    <section className="services-section" id="services">
       <div className="container">
-        <h2 className="text-center mb-5 section-title text-glow">My services</h2>
+        <h2 className="section-title">🚀 My Services</h2>
+        <p className="section-subtitle">Blending code with creativity — like a main character who actually trains.</p>
 
-        <div className="row g-4">
-          <div className="col-md-4">
-            <div className="anime-service-card neon-glow">
-              <h5 className="service-title">🌐 Web Development</h5>
-              <p className="service-desc">
-                Beautiful, responsive websites crafted with React, Bootstrap, and the spirit of a true weeb.
-              </p>
-            </div>
+        <div className="services-grid">
+          <div className="service-card">
+            <h3>🌐 Web Development</h3>
+            <p>Responsive, modern websites using React, Bootstrap, and just a pinch of anime energy.</p>
           </div>
 
-          <div className="col-md-4">
-            <div className="anime-service-card neon-glow">
-              <h5 className="service-title">🧠 Backend Development</h5>
-              <p className="service-desc">
-                Clean APIs and powerful servers — as reliable as a shonen protagonist’s will.
-              </p>
-            </div>
+          <div className="service-card">
+            <h3>🧠 Backend Development</h3>
+            <p>Secure APIs and solid backend logic with Node.js, MongoDB — dependable like Tanjiro’s resolve.</p>
           </div>
 
-          <div className="col-md-4">
-            <div className="anime-service-card neon-glow">
-              <h5 className="service-title">🎨 Frontend Development</h5>
-              <p className="service-desc">
-                Interactive UIs that look like they were designed in a futuristic anime control panel.
-              </p>
-            </div>
+          <div className="service-card">
+            <h3>🎨 Frontend Development</h3>
+            <p>Visually stunning UIs built to feel like they came from a sci-fi anime control panel.</p>
           </div>
         </div>
-
-        <hr className="glow-divider" />
       </div>
     </section>
   );

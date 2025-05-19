@@ -1,35 +1,143 @@
-.over{
-    background: rgba(0, 0, 0, 0.571);
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: px;
-    padding-right: px;
-}
 
-
-
-.ddd{
-    display: flex;
-    justify-content: space-around;
-}
-.but{
-    background-color: rgba(63, 63, 203, 0.635);
-    border-color: white;
-    bor
-    border-radius: 30px;
-    color: white;
-    
-    transition: transform 0.7s ease-in-out;
-}
-.but:hover{
-    transform: translateX(6px);
-}
 .head{
-    color: rgb(122, 122, 255);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
+
 }
 .vic{
     display: flex;
 justify-content: space-around;
 margin-top: 20px;
+}
+.connect-container {
+  padding: 4rem 2rem;
+  background-color: #00000000;
+  color: #ffffff;
+  margin-top: 20px;
+
+}
+
+.connect-main {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.connect-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.connect-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.connect-btn {
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 2s ease, margin-top 0.8s  ease-in-out;
+  
+}
+
+.connect-btn:hover {
+  background-color: #005f91;
+  margin-top:3px;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.social-icons a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0073b1;
+}
+
+.connect-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 2rem;
+}
+
+.footer-box {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.footer-bio {
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.footer-contact {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(0, 115, 177, 0.5);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 115, 177, 0.8);
+  }
+}
+
+
+.connect-container {
+  padding: 4rem 2rem;
+  background-color: #00000000;
+  color: #ffffff;
+  margin-top: 20px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.connect-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  animation: fadeInUp 1.4s ease;
+}
+
+.connect-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  animation: fadeInUp 1.6s ease;
 }

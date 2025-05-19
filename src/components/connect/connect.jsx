@@ -1,41 +1,49 @@
 import React from 'react'
 import './connect.css'
-const connect = () => {
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
+
+const Connect = () => {
   return (
-    <>
-    <div className='over' id='connect'>
-    <div className='ddd'>
-        <div className='conect'>
-        <h2>Let's Connect here</h2>
-        </div>
-        <div>
-       <a href="https://www.linkedin.com/in/akpan-victor-119139355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
-        rel="noopener noreferrer"><button className='but'>let's Work together  </button></a>
-        <a href=""><img src="" alt="" /></a>
-        <a href=""><img src="" alt="" /></a>
-        <a href=""><img src="" alt="" /></a>
-        <a href=""><img src="" alt="" /></a>
-        </div>
-    </div>
+    <div className='connect-container' id='connect'>
+      <div className='connect-main'>
+        <h2 className='connect-title'>Let's Connect</h2>
+        <p className='connect-subtitle'>Reach out for collaborations or just a friendly hello!</p>
 
-    <div className='vic'>
-        <div>
-            <h3 className='head'>Victor</h3>
-            <p>Creative mind.clean once.human <br />
-            high design,lets connect and create</p>
+        <a
+          href="https://www.linkedin.com/in/akpan-victor-119139355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className='connect-btn'>Let's Work Together</button>
+        </a>
+
+        <div className='social-icons'>
+          <a href="https://www.linkedin.com/in/akpan-victor-119139355" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FaTwitter /></a>
+          <a href="https://instagram.com/" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
-        <div>
-            <h4 className='head'>Contact</h4>
-            <p>+2347045939049 <br />
+      </div>
+
+      <div className='connect-footer'>
+        <div className='footer-box'>
+          <h3 className='footer-name'>Victor</h3>
+          <p className='footer-bio'>
+            Creative mind. Clean one. Human. <br />
+            High design — let's connect and create.
+          </p>
+        </div>
+        <div className='footer-box'>
+          <h4 className='footer-contact'>Contact</h4>
+          <p>
+            +234 704 593 9049 <br />
             vakpan462@gmail.com <br />
-            7,ogunbadejo str,shomolu Lagos
-            </p>
-
+            7, Ogunbadejo St, Shomolu, Lagos
+          </p>
         </div>
+      </div>
     </div>
-    </div>
-    </>
   )
 }
 
-export default connect
+export default Connect

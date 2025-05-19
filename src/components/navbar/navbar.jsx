@@ -1,11 +1,12 @@
 import React from 'react';
 import './navbar.css';
+import { Link }  from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-anime px-3 fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold anime-font" href="#">Akpan Victor</a>
+        <Link to="/" className="navbar-brand fw-bold anime-font" >Akpan Victor</Link>
 
         <button
           className="navbar-toggler"
@@ -22,22 +23,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
           <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#home" id='nav'>Home</a>
+              <Link to="/" className="nav-link text-white anime-hover"  id='nav'>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#about" id='nav'>About</a>
+              <Link to="/about" className="nav-link text-white anime-hover"  id='nav'>About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#services" id='nav'>Services</a>
+              <Link  to="/services" className="nav-link text-white anime-hover"  id='nav'>Services</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#resume" id='nav'>Resume</a>
+              <Link to="/resume" className="nav-link text-white anime-hover"  id='nav'>Resume</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#connect" id='nav'>Connect</a>
+              <Link to="connect" className="nav-link text-white anime-hover"  id='nav'>Connect</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white anime-hover" href="#contact" id='nav'>Contact</a>
+              <Link to="contact" className="nav-link text-white anime-hover"  id='nav'>Contact</Link>
             </li>
           </ul>
         </div>
