@@ -1,6 +1,6 @@
 /* Background gradient for anime theme */
 .bg-anime {
-  background: linear-gradient(45deg, #07526e, #3f0161,#021d5a );
+  background-color: rgb(110, 98, 97);
   background-size: 300% 300%;
   animation: animeBgAnimation 3s ease infinite;
   border-radius: 2px;

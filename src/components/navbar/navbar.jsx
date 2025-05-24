@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-anime px-3 fixed-top">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand fw-bold anime-font" >Akpan Victor</Link>
+        <Link to="/" className="navbar-brand fw-bold anime-font" >Hi, am Victor</Link>
 
         <button
           className="navbar-toggler"
