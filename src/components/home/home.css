@@ -27,11 +27,11 @@
 }
 
 .anime-avatar {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 3px solid #7f5af0;
-  box-shadow: 0 0 20px #7f5af0;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 20px #ffffff;
   margin-bottom: 20px;
   transition: transform 0.3s ease;
 }

@@ -19,7 +19,7 @@ const Connect = () => {
 
         <div className='social-icons'>
           <a href="https://www.linkedin.com/in/akpan-victor-119139355" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="https://github.com/victor200900" target="_blank" rel="noreferrer"><FaGithub /></a>
           <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FaTwitter /></a>
           <a href="https://instagram.com/" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
