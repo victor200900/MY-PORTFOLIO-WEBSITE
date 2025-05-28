@@ -9,11 +9,10 @@
   background-repeat: no-repeat;
   color: white;
   min-height: 100vh;
-   font-family:"Quicksand";
+   font-family: 'Courier New', Courier, monospace;
 }
 
 .all1 {
-  font-family:"Quicksand";
   background-color: rgba(0, 0, 0, 0.706);
   padding: 2rem;
   min-height: 100vh;

@@ -35,7 +35,7 @@ margin-top: 20px;
 }
 
 .connect-btn {
-  background-color: #0073b1;
+  background-color: #000000;
   color: white;
   border: none;
   padding: 0.8rem 2rem;
@@ -48,7 +48,7 @@ margin-top: 20px;
 
 .connect-btn:hover {
   background-color: #50f204;
-  margin-top:3px;
+  
 }
 
 .social-icons {

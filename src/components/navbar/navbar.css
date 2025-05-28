@@ -1,46 +1,57 @@
-/* Background gradient for anime theme */
+/* Animated background gradient with soft anime hues */
 .bg-anime {
-  background-color: rgb(110, 98, 97);
-  background-size: 300% 300%;
-  animation: animeBgAnimation 3s ease infinite;
-  border-radius: 2px;
+  background: rgb(11, 11, 46);
+  background-size: 400% 400%;
+  animation: animeBgAnimation 6s ease infinite;
   height: 60px;
-
-
+  transition: background 0.5s ease-in-out;
 }
 
-/* Keyframes for background animation */
+/* Keyframes for smooth gradient shifting */
 @keyframes animeBgAnimation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* Font style for anime aesthetic */
+/* Stylized anime font look */
 .anime-font {
   font-size: 1.8rem;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 2px;
-  font-weight: lighter;
+  font-weight: 300;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
 
-/* Hover effect for navbar items */
+/* Glowing hover effect for nav links */
 .anime-hover:hover {
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(106, 90, 205, 0.9);
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  color: #ff0000;
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #6a5acd, 
+    0 0 20px #ff6ec7;
+  transition: all 0.3s ease;
 }
 
-/* Custom nav link styles */
+/* Clean and responsive nav link styles */
 #nav {
   font-size: 15px;
   text-transform: uppercase;
-  transition: color 0.3s, text-shadow 0.3s;
-  
+  color: #f5f5f5;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-
-/* Anime text shadow for navbar brand */
+/* Anime glow branding effect */
 .navbar-brand {
-  text-shadow: 0 0 10px #fff, 0 0 20px #ff6ec7, 0 0 30px #f7a7b6;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+
+  font-weight: bold;
+  text-shadow: 
+    0 0 10px #fff, 
+    0 0 20px #ff6ec7, 
+    0 0 30px #f7a7b6, 
+    0 0 40px #6a5acd;
+  transition: text-shadow 0.3s ease-in-out;
 }

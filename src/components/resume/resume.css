@@ -1,5 +1,5 @@
 .anime-resume {
-  color: #f0f8ff;
+  color: #ffffff;
   border-radius: 12px;
   padding: 40px;
   animation: fadeSlideUp 0.9s ease-in ;
@@ -8,7 +8,7 @@
 
 .glowing-title {
   color: white;
-  text-shadow: 0 0 5px #0ff, 0 0 20px #0ff;
+  text-shadow: 0 0 5px rgb(7, 0, 61), 0 0 20px rgb(255, 255, 255);
   letter-spacing: 3px;
   animation: glowPop 1.3s ease forwards;
 }
@@ -25,7 +25,7 @@
 
 .anime-heading {
   color: #ffffff;
-  text-shadow: 0 0 6px #ff6bcb88;
+  text-shadow: 0 0 6px #fffbfe88;
   margin-bottom: 20px;
   animation: fadeInLeft 0.9s ease forwards;
 }
@@ -33,7 +33,7 @@
 .timeline {
   position: relative;
   padding-left: 20px;
-  border-left: 2px dashed #7f5af0;
+  border-left: 2px dashed #ffffff;
   animation: fadeIn 0.9s ease forwards;
 }
 
@@ -50,7 +50,7 @@
 .timeline-dot {
   width: 12px;
   height: 12px;
-  background: #7f5af0;
+  background: #ffffff;
   border-radius: 50%;
   position: absolute;
   left: -7px;
@@ -60,16 +60,16 @@
 }
 
 .timeline-content {
-  background: rgba(0, 0, 0, 0.366);
+  background: rgba(255, 255, 255, 0.366);
   padding: 15px 20px;
   border-radius: 10px;
-  border: 1px solid #7f5af0;
+  border: 1px solid #dcdcdc;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .timeline-content:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #7f5af0;
+  box-shadow: 0 0 15px #ffffff;
 }
 
 .timeline-date {
@@ -87,15 +87,15 @@
 .anime-list li {
   padding: 10px;
   margin-bottom: 10px;
-  background: rgba(127, 90, 240, 0.1);
-  border-left: 4px solid #7f5af0;
+  background: rgba(255, 255, 255, 0.349);
+  border-left: 4px solid #ffffff;
   transition: 0.3s ease;
   opacity: 0;
   animation: fadeInUp 0.6s ease forwards;
 }
 
 .anime-list li:hover {
-  background: rgba(127, 90, 240, 0.2);
+  background: rgb(31, 14, 82);
   transform: translateX(10px);
   box-shadow: 0 0 10px #7f5af0;
 }
