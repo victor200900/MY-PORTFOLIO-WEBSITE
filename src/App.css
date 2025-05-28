@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
 
 .all {
-  background-color: white;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.706);
   color: white;
   min-height: 100vh;
    font-family: 'Courier New', Courier, monospace;

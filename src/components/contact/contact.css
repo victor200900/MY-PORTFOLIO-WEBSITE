@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .contact-card {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #00f2ff;
+  border: 1px solid #f3f3f3;
   border-radius: 16px;
-  padding: 2rem;
   max-width: 500px;
   width: 100%;
   box-shadow: 0 0 24px rgba(0, 242, 255, 0.2);
@@ -60,7 +60,7 @@
 .contact-btn {
   padding: 0.9rem 1.5rem;
   width: 100%;
-  background: #00f2ff;
+  background: #faffff;
   color: #000;
   font-weight: bold;
   font-size: 1rem;

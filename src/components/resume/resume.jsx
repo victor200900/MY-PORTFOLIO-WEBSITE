@@ -7,7 +7,7 @@ const ResumeSection = () => {
   return (
     <div className="anime-resume container py-5" id="resume">
       <br />
-      <h2 className="text-center glowing-title mb-5">📜 RESUME</h2>
+      <h2 className="text-center glowing-title mb-5"> RESUME</h2>
 
       <div className="row g-4">
         <div className="col-md-6">
