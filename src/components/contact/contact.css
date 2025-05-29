@@ -7,14 +7,14 @@
 
 .contact-card {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #f3f3f3;
   border-radius: 16px;
   max-width: 500px;
   width: 100%;
-  box-shadow: 0 0 24px rgba(0, 242, 255, 0.2);
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   animation: fadeInUp 1s ease forwards;
   opacity: 0;
+  padding: 19px;
 }
 
 .glowing-title {
@@ -22,7 +22,6 @@
   font-size: 2rem;
   color: #fff;
   margin-bottom: 1.5rem;
-  text-shadow: 0 0 12px #00f2ff;
 }
 
 /* Form Fields */
@@ -41,7 +40,7 @@
 .form-field input,
 .form-field textarea {
   padding: 0.8rem 1rem;
-  border: 1px solid #00f2ff88;
+  border: 1px solid #f7ffff88;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -67,14 +66,13 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0, 242, 255, 0.6);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
   transition: 0.3s ease;
 }
 
 .contact-btn:hover {
-  background: #fff;
-  color: #00f2ff;
-  box-shadow: 0 0 30px rgba(0, 242, 255, 0.9);
+  background: #000000;
+  color: white;
 }
 
 /* Animations */
