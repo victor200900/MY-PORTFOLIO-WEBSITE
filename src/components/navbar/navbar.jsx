@@ -19,25 +19,25 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
-          <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
+        <div className="collapse navbar-collapse justify-content-lg-center text-center text-lg-start w-100" id="navbarContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4">
             <li className="nav-item">
-              <a href="#home" className="nav-a text-black anime-hover">Home</a>
+              <a href="#home" className="nav-link text-black anime-hover">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-a text-black anime-hover">About</a>
+              <a href="#about" className="nav-link text-black anime-hover">About</a>
             </li>
             <li className="nav-item">
-              <a href="#services" className="nav-a text-black anime-hover">Services</a>
+              <a href="#services" className="nav-link text-black anime-hover">Services</a>
             </li>
             <li className="nav-item">
-              <a href="#resume" className="nav-a text-black anime-hover">Resume</a>
+              <a href="#resume" className="nav-link text-black anime-hover">Resume</a>
             </li>
             <li className="nav-item">
-              <a href="#connect" className="nav-a text-black underline-offset-0 anime-hover">Connect</a>
+              <a href="#connect" className="nav-link text-black anime-hover">Connect</a>
             </li>
             <li className="nav-item">
-              <a href="#contact" className="nav-a text-black anime-hover">Contact</a>
+              <a href="#contact" className="nav-link text-black anime-hover">Contact</a>
             </li>
           </ul>
         </div>
