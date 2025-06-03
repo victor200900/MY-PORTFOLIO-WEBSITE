@@ -5,19 +5,22 @@ import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
 const Connect = () => {
   return (
     <div className='connect-container' id='connect'>
-      <div className='connect-main'>
-        <h2 className='connect-title'>Let's Connect</h2>
-        <p className='connect-subtitle'>Reach out for collaborations or just a friendly hello!</p>
+      <div className='connect-main' data-aos="fade-up">
+        <h2 className='connect-title' data-aos="fade-right">Let's Connect</h2>
+        <p className='connect-subtitle' data-aos="fade-left">
+          Reach out for collaborations or just a friendly hello!
+        </p>
 
         <a
           href="https://www.linkedin.com/in/akpan-victor-119139355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           rel="noopener noreferrer"
+          data-aos="zoom-in"
         >
           <button className='connect-btn'>Let's Work Together</button>
         </a>
 
-        <div className='social-icons'>
+        <div className='social-icons' data-aos="fade-up">
           <a href="https://www.linkedin.com/in/akpan-victor-119139355" target="_blank" rel="noreferrer"><FaLinkedin /></a>
           <a href="https://github.com/victor200900" target="_blank" rel="noreferrer"><FaGithub /></a>
           <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FaTwitter /></a>
@@ -25,15 +28,15 @@ const Connect = () => {
         </div>
       </div>
 
-      <div className='connect-footer'>
-        <div className='footer-box'>
+      <div className='connect-footer' data-aos="fade-up">
+        <div className='footer-box' data-aos="fade-right">
           <h3 className='footer-name'>Victor</h3>
           <p className='footer-bio'>
             Creative mind. Clean one. Human. <br />
             High design — let's connect and create.
           </p>
         </div>
-        <div className='footer-box'>
+        <div className='footer-box' data-aos="fade-left">
           <h4 className='footer-contact'>Contact</h4>
           <p>
             +234 704 593 9049 <br />

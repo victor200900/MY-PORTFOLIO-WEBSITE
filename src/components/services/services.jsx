@@ -1,32 +1,50 @@
-import React from 'react';
-import './services.css';
+import React from 'react'
+import './services.css'
 
 const Services = () => {
+  const services = [
+    {
+      title: 'Web Design',
+      desc: 'Clean, modern, and responsive web designs tailored for all devices.',
+      icon: '💻',
+      aos: 'fade-up'
+    },
+    {
+      title: 'Frontend Development',
+      desc: 'Fast, dynamic user interfaces built with React and Bootstrap.',
+      icon: '⚙️',
+      aos: 'fade-down'
+    },
+    {
+      title: 'Backend Integration',
+      desc: 'Secure APIs and database connectivity using Node and MongoDB.',
+      icon: '🔐',
+      aos: 'fade-up'
+    }
+  ]
+
   return (
-    <section className="services-section" id="services">
-      <div className="container">
-        <h2 className="section-title"> My Services</h2>
-        <p className="section-subtitle">Blending code with creativity — like a main character who actually trains.</p>
-
-        <div className="services-grid">
-          <div className="service-card">
-            <h3>🌐 Web Development</h3>
-            <p>Responsive, modern websites using React, Bootstrap, and just a pinch of anime energy.</p>
-          </div>
-
-          <div className="service-card">
-            <h3>🧠 Backend Development</h3>
-            <p>Secure APIs and solid backend logic with Node.js, MongoDB — dependable like Tanjiro’s resolve.</p>
-          </div>
-
-          <div className="service-card">
-            <h3>🎨 Frontend Development</h3>
-            <p>Visually stunning UIs built to feel like they came from a sci-fi anime control panel.</p>
-          </div>
+    <section className="services-section py-5" id="services">
+      <div className="container text-center">
+        <h2 className="section-title mb-4">My Services</h2>
+        <div className="row justify-content-center">
+          {services.map((service, index) => (
+            <div
+              className="col-md-6 col-lg-4 mb-4"
+              key={index}
+              data-aos={service.aos}
+            >
+              <div className="service-card p-4 h-100">
+                <div className="service-icon mb-3">{service.icon}</div>
+                <h4 className="service-title mb-2">{service.title}</h4>
+                <p className="service-desc">{service.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

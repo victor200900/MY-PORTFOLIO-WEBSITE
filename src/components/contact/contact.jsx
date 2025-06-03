@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react';
-import './contact.css'; // Make sure this CSS file is created
+import './contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactForm = () => {
   useEffect(() => {
-    const elements = document.querySelectorAll('.animate-pop');
-    elements.forEach((el, i) => {
-      el.style.animationDelay = `${i * 0.2}s`;
-      el.classList.add('pop-in');
-    });
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   const handleSubmit = (e) => {
@@ -18,17 +16,16 @@ const ContactForm = () => {
 
     const text = `Hello, I'm ${name}.\nPhone: ${phone}\n\n${message}`;
     const encodedText = encodeURIComponent(text);
-
     const whatsappURL = `https://wa.me/2347045939049?text=${encodedText}`;
     window.open(whatsappURL, '_blank');
   };
 
   return (
     <div className='contact-wrapper' id='contact'>
-      <div className='contact-card animate-pop'>
-        <h2 className='glowing-title animate-pop'>Contact Me</h2>
+      <div className='contact-card' data-aos="zoom-in">
+        <h2 className='glowing-title' data-aos="fade-down">Contact Me</h2>
         <form onSubmit={handleSubmit}>
-          <div className='form-field animate-pop'>
+          <div className='form-field' data-aos="fade-up" data-aos-delay="100">
             <label htmlFor="name">Your Name</label>
             <input
               type="text"
@@ -39,7 +36,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div className='form-field animate-pop'>
+          <div className='form-field' data-aos="fade-up" data-aos-delay="200">
             <label htmlFor="phone">Phone Number</label>
             <input
               type="tel"
@@ -50,7 +47,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div className='form-field animate-pop'>
+          <div className='form-field' data-aos="fade-up" data-aos-delay="300">
             <label htmlFor="message">Your Message</label>
             <textarea
               id="message"
@@ -61,7 +58,12 @@ const ContactForm = () => {
             />
           </div>
 
-          <button type="submit" className="contact-btn animate-pop">
+          <button
+            type="submit"
+            className="contact-btn"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+          >
             Send via WhatsApp
           </button>
         </form>

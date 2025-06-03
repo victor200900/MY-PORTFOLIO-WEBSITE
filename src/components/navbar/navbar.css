@@ -41,7 +41,7 @@
   text-transform: uppercase;
   color: #050505;
   transition: color 0.3s ease, text-shadow 0.3s ease;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(205, 12, 12);
   
 }
 
@@ -51,18 +51,20 @@
   font-family: 'Courier New', Courier, monospace;
 
   font-weight: bold;
-  text-shadow: 
-    0 0 10px #fff, 
-    0 0 20px #ff6ec7, 
-    0 0 30px #f7a7b6, 
-    0 0 40px #6a5acd;
   transition: text-shadow 0.3s ease-in-out;
 }
 
 .nav-link{
   color: black !important;
   font-weight: bolder !important;
+  text-decoration: none !important;
 }
 .navbar-toggler{
   background-color: grey;
+}
+.nav-a{
+  text-decoration: none !important;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder !important;
 }

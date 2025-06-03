@@ -2,68 +2,75 @@ import React from 'react';
 import './resume.css';
 
 const ResumeSection = () => {
-
-
   return (
-    <div className="anime-resume container py-5" id="resume">
-      <br />
-      <h2 className="text-center glowing-title mb-5"> RESUME</h2>
+    <section className="resume-section py-5" id="resume">
+      <div className="container text-center">
+        <h2 className="section-title mb-5" data-aos="zoom-in">RESUME</h2>
 
-      <div className="row g-4">
-        <div className="col-md-6">
-          <h4 className="anime-heading">🎓 Education</h4>
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-dot" />
-              <div className="timeline-content">
-                <h5>Bachelor of Computer Science</h5>
-                <span className="timeline-date">2022 - 2026</span>
-                <p>Algorithms, web dev, and software engineering mastery.</p>
+        <div className="row mb-5">
+          {/* Education */}
+          <div className="col-md-6 mb-4" data-aos="fade-right">
+            <div className="resume-card p-4 h-100">
+              <h4 className="resume-heading mb-3">🎓 Education</h4>
+              <div className="resume-item mb-3">
+                <h5>Federal Science and Technical College</h5>
+                <span className="resume-date">2022 - 2025</span>
+                <p>Science</p>
               </div>
+              {/* Add more education items here if needed */}
             </div>
           </div>
-        </div>
 
-        <div className="col-md-6">
-          <h4 className="anime-heading">💼 Experience</h4>
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-dot" />
-              <div className="timeline-content">
+          {/* Experience */}
+          <div className="col-md-6 mb-4" data-aos="fade-left">
+            <div className="resume-card p-4 h-100">
+              <h4 className="resume-heading mb-3">💼 Experience</h4>
+              <div className="resume-item mb-3">
                 <h5>Frontend Developer Intern</h5>
-                <span className="timeline-date">Jun - Aug 2024</span>
+                <span className="resume-date">nov - may 2025</span>
                 <p>Built dynamic UIs with React + Bootstrap. Enhanced user engagement.</p>
               </div>
+              {/* Add more experience items here if needed */}
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          {/* Skills */}
+          <div className="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div className="resume-card p-4 h-100">
+              <h4 className="resume-heading mb-3">🧠 Skills</h4>
+              <ul className="resume-list">
+                <li>HTML / CSS / JavaScript</li>
+                <li>ReactJS</li>
+                <li>Bootstrap</li>
+                 <li>Tailwind</li>
+                <li>MongoDB (basic)</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Certifications */}
+          <div className="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div className="resume-card p-4 h-100">
+              <h4 className="resume-heading mb-3">📄 Certifications</h4>
+              <ul className="resume-list">
+                <li>
+                  <a
+                    href="https://drive.google.com/file/d/1fPqWSYB49YjOcpJMlmYU-4fZICFxaH9m/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="resume-link"
+                  >
+                    Full stack software-development - Gomycode
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="row mt-5 g-4">
-        <div className="col-md-6">
-          <h4 className="anime-heading">🧠 Skills</h4>
-          <ul className="anime-list">
-            <li>HTML / CSS / JavaScript</li>
-            <li>ReactJS</li>
-            <li>Bootstrap</li>
-            <li>MongoDB (basic)</li>
-          </ul>
-        </div>
-
-        <div className="col-md-6">
-          <h4 className="anime-heading">📄 Certifications</h4>
-          <ul className="anime-list">
-           <a id='link'
-        href="https://drive.google.com/file/d/1fPqWSYB49YjOcpJMlmYU-4fZICFxaH9m/view?usp=drive_link"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-           <li>Full stack software-development - Gomycode</li>
-           </a>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 

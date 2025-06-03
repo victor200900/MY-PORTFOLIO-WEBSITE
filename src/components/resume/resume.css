@@ -1,136 +1,85 @@
-.anime-resume {
+.resume-section {
+  color: #eee;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
   color: #ffffff;
-  border-radius: 12px;
-  animation: fadeSlideUp 0.3s ease ;
-  backdrop-filter: blur(2px);
+  letter-spacing: 2px;
 }
 
-.glowing-title {
-  color: white;
-  text-shadow: 0 0 5px rgb(7, 0, 61), 0 0 20px rgb(255, 255, 255);
-  letter-spacing: 3px;
-  animation: glowPop 1.3s ease-in forwards;
-}
-
-#link {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s ease;
-}
-#link:hover {
-  color: #0ff;
-  text-shadow: 0 0 8px #0ff;
-}
-
-.anime-heading {
-  color: #ffffff;
-  text-shadow: 0 0 6px #fffbfe88;
-  margin-bottom: 20px;
-  animation: fadeInLeft 0.9s ease forwards;
-}
-
-.timeline {
-  position: relative;
-  padding-left: 20px;
-  border-left: 2px dashed #ffffff;
-  animation: fadeIn 0.9s ease forwards;
-}
-
-.timeline-item {
-  margin-bottom: 30px;
-  position: relative;
-  opacity: 0;
-  animation: fadeInUp 0.9s ease forwards;
-}
-.timeline-item:nth-child(1) { animation-delay: 0.2s; }
-.timeline-item:nth-child(2) { animation-delay: 0.4s; }
-.timeline-item:nth-child(3) { animation-delay: 0.6s; }
-
-.timeline-dot {
-  width: 12px;
-  height: 12px;
-  background: #ffffff;
-  border-radius: 50%;
-  position: absolute;
-  left: -7px;
-  top: 6px;
-  box-shadow: 0 0 10px #7f5af0;
-  animation: pulseDot 2s infinite;
-}
-
-.timeline-content {
-  background: rgba(255, 255, 255, 0.366);
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: 1px solid #dcdcdc;
+.resume-card {
+  background: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.timeline-content:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #ffffff;
+.resume-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.7);
 }
 
-.timeline-date {
-  font-size: 0.85rem;
-  color: #aaa;
-  margin-bottom: 6px;
+.resume-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
 }
 
-.anime-list {
+.resume-item h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.resume-date {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+  display: block;
+  font-style: italic;
+}
+
+.resume-list {
   list-style: none;
   padding-left: 0;
-  margin-top: 20px;
+  font-size: 1rem;
 }
 
-.anime-list li {
-  padding: 10px;
+.resume-list li {
   margin-bottom: 10px;
-  background: rgba(255, 255, 255, 0.349);
-  border-left: 4px solid #ffffff;
-  transition: 0.3s ease;
-  opacity: 0;
-  animation: fadeInUp 0.6s ease forwards;
+  position: relative;
+  padding-left: 15px;
 }
 
-.anime-list li:hover {
-  background: rgb(31, 14, 82);
-  transform: translateX(10px);
-  box-shadow: 0 0 10px #7f5af0;
+.resume-list li::before {
+  content: '•';
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
 
-.anime-list li:nth-child(1) { animation-delay: 0.3s; }
-.anime-list li:nth-child(2) { animation-delay: 0.5s; }
-.anime-list li:nth-child(3) { animation-delay: 0.7s; }
-.anime-list li:nth-child(4) { animation-delay: 0.9s; }
-
-/* ANIMATIONS */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+.resume-link {
+  color: #f9f7f5;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-@keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
+.resume-link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
-@keyframes fadeInLeft {
-  0% { opacity: 0; transform: translateX(-40px); }
-  100% { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes glowPop {
-  0% { opacity: 0; transform: scale(0.9); text-shadow: 0 0 0 #0ff; }
-  100% { opacity: 1; transform: scale(1); text-shadow: 0 0 10px #0ff; }
-}
-
-@keyframes fadeSlideUp {
-  0% { opacity: 0; transform: translateY(60px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes pulseDot {
-  0%, 100% { box-shadow: 0 0 10px #7f5af0; }
-  50% { box-shadow: 0 0 20px #7f5af0; }
+/* Responsive tweak */
+@media (max-width: 576px) {
+  .resume-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

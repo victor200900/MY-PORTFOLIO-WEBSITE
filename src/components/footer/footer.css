@@ -1,7 +1,7 @@
 .footer{
-    background: rgba(38, 2, 72, 0.534);
     padding: 2px;
     display:flex;
+    margin-top: 50px;
     justify-content: space-between;
 
 }
