@@ -6,6 +6,7 @@
   height: 60px;
   transition: background 0.5s ease-in-out;
   color: black;
+  
 }
 
 /* Keyframes for smooth gradient shifting */
@@ -70,4 +71,15 @@
 }
 .collapse{
   background-color: white;
+}
+
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #050505;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  background-color: rgb(205, 12, 12);
 }
