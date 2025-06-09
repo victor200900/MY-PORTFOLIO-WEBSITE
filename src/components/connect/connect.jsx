@@ -8,7 +8,7 @@ const Connect = () => {
       <div className='connect-main' data-aos="fade-up">
         <h2 className='connect-title' data-aos="fade-right">Let's Connect</h2>
         <p className='connect-subtitle' data-aos="fade-left">
-          Reach out for collaborations or just a friendly hello!
+          Do you need a Frontend developer? <br /> 
         </p>
 
         <a
@@ -30,18 +30,17 @@ const Connect = () => {
 
       <div className='connect-footer' data-aos="fade-up">
         <div className='footer-box' data-aos="fade-right">
-          <h3 className='footer-name'>Victor</h3>
+          <h3 className='footer-name'>Akpan-Victor</h3>
           <p className='footer-bio'>
-            Creative mind. Clean one. Human. <br />
-            High design — let's connect and create.
+            Let me bring your ideas to life  <br />
+            let's connect and create.
           </p>
         </div>
         <div className='footer-box' data-aos="fade-left">
           <h4 className='footer-contact'>Contact</h4>
           <p>
-            +234 704 593 9049 <br />
+            +234-704-593-9049 <br />
             vakpan462@gmail.com <br />
-            7, Ogunbadejo St, Shomolu, Lagos
           </p>
         </div>
       </div>

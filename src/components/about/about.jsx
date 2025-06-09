@@ -15,11 +15,11 @@ const About = () => {
         </div>
 
         <div className="about-right" data-aos="fade-left">
-          <h2 className="about-title" data-aos="fade-left">About Me</h2>
+          <h2 className="about-title" >About Me</h2>
           <p className="about-text" data-aos="fade-up" data-aos-delay="200">
-            I’m <strong>Victor</strong>, a creative frontend developer and passionate anime fan. I blend clean UI design with responsive functionality — turning code into art.  
+            Hi i’m <strong>Victor</strong>, a creative frontend software developer. I blend clean UI design with responsive functionality — turning code into art.  
             <br /> <br />
-            My goal is to build interfaces that feel like they belong in a high-tech anime — smooth, immersive, and intuitive. I'm currently learning backend tech to become a full-stack dev and create platforms people love.
+            My goal is to build interfaces that feel like they belong in a high-tech, smooth, immersive, and intuitive. I'm currently learning backend development to become a full-stack dev and create platforms people love.
           </p>
           <div className="about-tags" data-aos="fade-up" data-aos-delay="400">
             <span>React</span>

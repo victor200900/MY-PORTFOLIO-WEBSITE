@@ -16,10 +16,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.resume-card:hover {
-  transform: translateY(-10px);
-}
-
 .resume-heading {
   color: #ffffff;
   font-weight: 600;

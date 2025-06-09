@@ -7,7 +7,6 @@ import Services from './components/services/services'
 import Resume from './components/resume/resume' 
 import Portfolio from './components/portfolio/portfolio'
 import Contact from './components/contact/contact'
-import Footer from './components/footer/footer'
 import Connect from './components/connect/connect'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,8 +26,7 @@ useEffect(() => {
       <Services />
       <Resume />
       <Contact />
-       <Connect />
-      <Footer />
+      <Connect />
     </div>
   )
 }

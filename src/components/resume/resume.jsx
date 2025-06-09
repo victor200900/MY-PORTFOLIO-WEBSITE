@@ -37,7 +37,7 @@ const ResumeSection = () => {
 
         <div className="row">
           {/* Skills */}
-          <div className="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-md-6 mb-4" cc>
             <div className="resume-card p-4 h-100">
               <h4 className="resume-heading mb-3">🧠 Skills</h4>
               <ul className="resume-list">
@@ -45,7 +45,6 @@ const ResumeSection = () => {
                 <li>ReactJS</li>
                 <li>Bootstrap</li>
                  <li>Tailwind</li>
-                <li>MongoDB (basic)</li>
               </ul>
             </div>
           </div>
@@ -53,7 +52,7 @@ const ResumeSection = () => {
           {/* Certifications */}
           <div className="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div className="resume-card p-4 h-100">
-              <h4 className="resume-heading mb-3">📄 Certifications</h4>
+              <h4 className="resume-heading mb-3" id='cert'>📄 Certifications</h4>
               <ul className="resume-list">
                 <li>
                   <a
