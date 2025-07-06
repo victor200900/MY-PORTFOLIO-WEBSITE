@@ -24,8 +24,7 @@ const About = () => {
           <div className="about-tags" data-aos="fade-up" data-aos-delay="400">
             <span>React</span>
             <span>Bootstrap</span>
-            <span>MongoDB</span>
-            <span>Anime Lover</span>
+            <span>Tailwindcss</span>
             <span>Creative UI</span>
           </div>
         </div>

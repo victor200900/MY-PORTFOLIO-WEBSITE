@@ -56,7 +56,7 @@ const ProjectSection = () => {
             <img
               src="src/assets/mov.png"
               className="card-img-top"
-              alt="AnimeVerse Screenshot"
+              alt="AnimeVerse"
             />
             <div className="card-body">
               <h5 className="card-title">{projects[0].title}</h5>
@@ -81,7 +81,7 @@ const ProjectSection = () => {
             <img
               src="src/assets/port.png"
               className="card-img-top"
-              alt="Portfolio Screenshot"
+              alt="Portfolio"
             />
             <div className="card-body">
               <h5 className="card-title">{projects[1].title}</h5>
