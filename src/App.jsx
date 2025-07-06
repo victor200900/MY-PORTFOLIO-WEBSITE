@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/portfolio'
 import Contact from './components/contact/contact'
 import Connect from './components/connect/connect'
 import AOS from 'aos';
+import Projects from './components/projects/projects';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
@@ -25,6 +26,7 @@ useEffect(() => {
       <About />
       <Services />
       <Resume />
+      <Projects />
       <Contact />
       <Connect />
     </div>
