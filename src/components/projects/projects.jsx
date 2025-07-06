@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const projects = [
   {
     title: "AnimeVerse – Movie Streaming Platform",
-    tech: "React.js, Bootstrap, TheMovieDB API, Node.js, MongoDB",
+    tech: "Html,Css,React.js,Bootstrap,TheMovieDB API,",
     description: "A responsive anime-themed movie platform with user login, TMDB movie search, genre filtering, trailer preview, and YTS-powered downloads.",
     features: [
   "Responsive UI built with Bootstrap",
@@ -48,7 +48,7 @@ const projects = [
 const ProjectSection = () => {
   return (
     <div className="container py-5" id="projects">
-      <h2 className="text-center mb-5">💻 My Projects</h2>
+      <h2 className="ext-white text-center mb-5">💻 My Projects</h2>
       <div className="row">
         {/* === AnimeVerse Project === */}
         <div className="col-md-6 col-lg-4 mb-4">
