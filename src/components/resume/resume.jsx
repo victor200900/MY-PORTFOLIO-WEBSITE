@@ -37,7 +37,7 @@ const ResumeSection = () => {
 
         <div className="row">
           {/* Skills */}
-          <div className="col-md-6 mb-4" cc>
+          <div className="col-md-6 mb-4" >
             <div className="resume-card p-4 h-100">
               <h4 className="resume-heading mb-3">🧠 Skills</h4>
               <ul className="resume-list">
