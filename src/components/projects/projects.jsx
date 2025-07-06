@@ -54,7 +54,7 @@ const ProjectSection = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 shadow-sm">
             <img
-              src="src/assets/mov.png"
+              src="public/mov.png"
               className="card-img-top"
               alt="AnimeVerse"
             />
@@ -79,7 +79,7 @@ const ProjectSection = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 shadow-sm">
             <img
-              src="src/assets/port.png"
+              src="public/port.png"
               className="card-img-top"
               alt="Portfolio"
             />

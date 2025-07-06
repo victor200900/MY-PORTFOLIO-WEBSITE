@@ -43,7 +43,9 @@ html, body {
 
 /* Card */
 .card {
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
   border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: none;
