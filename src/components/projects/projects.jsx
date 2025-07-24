@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Portfolio Website",
-    tech: "HTML, CSS, Bootstrap, JavaScript",
+    tech: "HTML, CSS, Bootstrap, React.js",
     description:
       "Clean personal portfolio highlighting your projects, resume, and contact.",
     features: [

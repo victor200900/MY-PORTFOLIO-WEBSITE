@@ -22,10 +22,12 @@ const About = () => {
             My goal is to build interfaces that feel like they belong in a high-tech, smooth, immersive, and intuitive. I'm currently learning backend development to become a full-stack dev and create platforms people love.
           </p>
           <div className="about-tags" data-aos="fade-up" data-aos-delay="400">
-            <span>React</span>
+            <span>React.js</span>
             <span>Bootstrap</span>
             <span>Tailwindcss</span>
-            <span>Creative UI</span>
+            <span>Javascrpt</span>
+            <span>Html</span>
+            <span>Css</span>
           </div>
         </div>
       </div>

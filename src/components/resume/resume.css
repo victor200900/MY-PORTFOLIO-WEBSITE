@@ -9,8 +9,7 @@
   letter-spacing: 2px;
 }
 
-.resume-card {
-  background: #1e1e1e;
+.resume-card{
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -58,17 +57,31 @@
   left: 0;
   font-weight: bold;
 }
+.but{
+  background-color: rgb(79, 105, 231);
+  border: none;
+  border-radius: 12px;
+  padding : 8px;
+  border: red 1px solid;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.but:hover {
+  background-color: rgb(79, 105, 231);
+  transform: scale(0.9);
+}
 
 .resume-link {
   color: #f9f7f5;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease , font-size 0.3s ease-in-out;
 }
 
 .resume-link:hover {
-  color: #fff;
+  color: #ec0101;
   text-decoration: underline;
+  
 }
 
 /* Responsive tweak */

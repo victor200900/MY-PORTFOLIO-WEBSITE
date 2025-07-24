@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand fw-bold text-black" href="#home">
-          Hi, am Victor
+        Welcome to my portfolio!
         </a>
 
         <button

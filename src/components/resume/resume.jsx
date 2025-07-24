@@ -35,23 +35,12 @@ const ResumeSection = () => {
                   • Worked on GitHub daily — handled version control, pull requests, and collaboration.
                 </p>
               </div>
-
-              <div className="resume-item mb-3">
-                <h5>Freelance Frontend Developer – A.V.E_Studio</h5>
-                <span className="resume-date">Feb 2024 – Present</span>
-                <p>
-                  • Designed and deployed portfolio and movie streaming projects using Vercel.<br />
-                  • Optimized page performance and mobile responsiveness.<br />
-                  • Used Context API to manage state in small e-commerce app.<br />
-                  • Delivered UI edits and landing pages for local clients.
-                </p>
-              </div>
             </div>
           </div>
         </div>
 
         {/* === Skills & Certifications === */}
-        <div className="row">
+        <div className="row"data-aos="fade-up">
           {/* Skills */}
           <div className="col-md-6 mb-4">
             <div className="resume-card p-4 h-100">
@@ -71,6 +60,7 @@ const ResumeSection = () => {
               <h4 className="resume-heading mb-3" id="cert">📄 Certifications</h4>
               <ul className="resume-list">
                 <li>
+                  <button className='but'>
                   <a
                     href="https://drive.google.com/file/d/1fPqWSYB49YjOcpJMlmYU-4fZICFxaH9m/view?usp=drive_link"
                     target="_blank"
@@ -79,6 +69,7 @@ const ResumeSection = () => {
                   >
                     Full Stack Software Development – Gomycode
                   </a>
+                  </button>
                 </li>
               </ul>
             </div>
