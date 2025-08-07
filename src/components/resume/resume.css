@@ -58,16 +58,15 @@
   font-weight: bold;
 }
 .but{
-  background-color: rgb(79, 105, 231);
+  background-color: rgba(14, 15, 19, 0.205);
   border: none;
   border-radius: 12px;
   padding : 8px;
-  border: red 1px solid;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .but:hover {
-  background-color: rgb(79, 105, 231);
+  background-color: rgb(255, 255, 255);
   transform: scale(0.9);
 }
 

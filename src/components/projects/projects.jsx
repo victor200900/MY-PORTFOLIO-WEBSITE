@@ -17,7 +17,7 @@ const projects = [
       "Deployed live on Vercel",
       "Version controlled using Git & GitHub",
     ],
-    liveLink: "https://void-phi-ochre.vercel.app",
+    liveLink: "https://movieapp-ave.vercel.app/",
     githubLink: "https://github.com/victor200900/Void-",
     image: "/mov.png", // ✅ image from public/
   },
@@ -34,6 +34,20 @@ const projects = [
     liveLink: "https://my-portfolio-website-three-brown.vercel.app",
     githubLink: "https://github.com/victor200900/MY-PORTFOLIO-WEBSITE",
     image: "/port.png", // ✅ image from public/
+  },
+   {
+    title: "Ave-restaurant",
+    tech: "HTML, CSS, Bootstrap, React.js",
+    description:
+      "Clean restarant landing page .",
+    features: [
+      "Mobile-first layout",
+      "Scroll-based animations",
+      "Dynamic project modal previews",
+    ],
+    liveLink: "https://ave-restaurant-website.vercel.app/",
+    githubLink: "https://github.com/victor200900/Ave-restaurant-website.git",
+    image: "/averestaurant.png", // ✅ image from public/
   },
 
 ];

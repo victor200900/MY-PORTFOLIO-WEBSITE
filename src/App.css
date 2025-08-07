@@ -2,10 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
 
 .all {
-  background-color: rgba(1, 1, 2, 0.706);
-  color: white;
-  min-height: 100vh;
-   font-family: 'Outfit', sans-serif;
+  
+  background: linear-gradient(to left, #0d063c, rgb(0, 0, 0));
+  background-size: 400% 400%;
+  animation: animeBgAnimation 6s ease infinite;
+  transition: background 0.5s ease-in-out;
+  color: black;
+
+@keyframes animeBgAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
    
 }
 

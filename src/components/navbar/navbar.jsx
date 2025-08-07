@@ -50,38 +50,27 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-center"
           id="navbarContent"
         >
-          <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
-            <li className="nav-item">
-              <a href="#home" className="nav-a text-black anime-hover">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#about" className="nav-a text-black anime-hover">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#services" className="nav-a text-black anime-hover">
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#resume" className="nav-a text-black anime-hover">
-                Resume
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#connect" className="nav-a text-black anime-hover">
-                Connect
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#contact" className="nav-a text-black anime-hover">
-                Contact
-              </a>
-            </li>
-          </ul>
+         <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
+  <li className="nav-item">
+    <a href="#home" className="nav-a text-black anime-hover">Home</a>
+  </li>
+  <li className="nav-item">
+    <a href="#about" className="nav-a text-black anime-hover">About Me</a>
+  </li>
+  <li className="nav-item">
+    <a href="#services" className="nav-a text-black anime-hover">My Services</a>
+  </li>
+  <li className="nav-item">
+    <a href="#resume" className="nav-a text-black anime-hover">My Resume</a>
+  </li>
+  <li className="nav-item">
+    <a href="#connect" className="nav-a text-black anime-hover">Let's Connect</a>
+  </li>
+  <li className="nav-item">
+    <a href="#contact" className="nav-a text-black anime-hover">Contact Me</a>
+  </li>
+</ul>
+
         </div>
       </div>
     </nav>

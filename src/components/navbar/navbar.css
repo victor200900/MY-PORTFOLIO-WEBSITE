@@ -1,85 +1,87 @@
-/* Animated background gradient with soft anime hues */
+/* Animated gradient background */
 .bg-anime {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(to left, rgb(0, 0, 0), #000000);
   background-size: 400% 400%;
   animation: animeBgAnimation 6s ease infinite;
-  height: 60px;
   transition: background 0.5s ease-in-out;
-  color: black;
-  
+  color: rgb(255, 255, 255);
 }
 
-/* Keyframes for smooth gradient shifting */
+/* Animation keyframes */
 @keyframes animeBgAnimation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* Stylized anime font look */
-.anime-font {
-  font-size: 1.8rem;
-  color: #000000;
-  letter-spacing: 2px;
-  font-weight: 300;
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
   font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #ffffff !important;
 }
 
-/* Glowing hover effect for nav links */
+/* Nav links */
+.navbar-nav .nav-item .nav-a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Hover effect */
 .anime-hover:hover {
-  color: #ff0000;
-  text-shadow: 
-    0 0 5px #fff, 
-    0 0 10px #fff, 
-    0 0 15px #6a5acd, 
-    0 0 20px #ff6ec7;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
   transition: all 0.3s ease;
 }
 
-/* Clean and responsive nav link styles */
-#nav {
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #050505;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  background-color: rgb(205, 12, 12);
-  
+/* Toggler button */
+.navbar-toggler {
+  background-color: #444;
+  border: none;
+  padding: 8px;
 }
 
-/* Anime glow branding effect */
-.navbar-brand {
-  color: #000000;
-  font-family: 'Courier New', Courier, monospace;
-
-  font-weight: bold;
-  transition: text-shadow 0.3s ease-in-out;
+/* Navbar spacing and center */
+.navbar-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
 }
 
-.nav-link{
-  color: black !important;
-  font-weight: bolder !important;
-  text-decoration: none !important;
-}
-.navbar-toggler{
-  background-color: grey;
-}
-.nav-a{
-  text-decoration: none !important;
-  display: flex;
-  justify-content: space-around;
-  font-weight: bolder !important;
-}
-.collapse{
-  background-color: white;
+/* For mobile view — center text */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+    gap: 0.75rem;
+  }
 }
 
+/* Sticky nav fix */
 #nav {
   position: sticky;
   top: 0;
   z-index: 999;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #050505;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  background-color: rgb(205, 12, 12);
+}
+
+.nav-a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.nav-a:hover::after {
+  transform: scaleX(1);
 }
