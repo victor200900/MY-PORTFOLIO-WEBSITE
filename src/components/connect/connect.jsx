@@ -8,7 +8,7 @@ const Connect = () => {
       <div className='connect-main' data-aos="fade-up">
         <h2 className='connect-title' data-aos="fade-right">Let's Connect</h2>
         <p className='connect-subtitle' data-aos="fade-left">
-          Do you need a Frontend developer? <br /> 
+           <br /> 
         </p>
 
         <a

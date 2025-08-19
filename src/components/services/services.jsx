@@ -11,7 +11,7 @@ const Services = () => {
     },
     {
       title: 'Frontend Development',
-      desc: 'Fast, dynamic user interfaces built with React and Bootstrap.',
+      desc: 'Fast, dynamic user interfaces built with modern JavaScript frameworks.',
       icon: '⚙️',
       aos: 'fade-down'
     }
