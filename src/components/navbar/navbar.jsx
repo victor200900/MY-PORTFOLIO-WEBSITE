@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand fw-bold" href="#home">
-        MY PROFILE
+        Download CV
         </a>
 
         <button

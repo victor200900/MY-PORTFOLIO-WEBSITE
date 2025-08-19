@@ -35,9 +35,10 @@
 
 /* Anime glow branding effect */
 .navbar-brand {
-  font-family: 'Courier New', Courier, monospace;
-
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
   font-weight: bold;
+  text-decoration: underline;
   transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -50,9 +51,9 @@
   justify-content: space-around;
   background: rgb(103, 98, 98);
   color:rgb(255, 255, 255) !important;
-  font-family: 'Courier New', Courier, monospace !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   padding-bottom: 7px;
-  font-size: 15px;
+  
 
 }
 .nav-a:hover{
