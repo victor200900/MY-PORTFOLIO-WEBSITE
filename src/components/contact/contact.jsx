@@ -25,34 +25,12 @@ const ContactForm = () => {
       <div className='contact-card' data-aos="zoom-in">
         <h2 className='glowing-title' data-aos="fade-down">Contact Me</h2>
         <form onSubmit={handleSubmit}>
-          <div className='form-field' data-aos="fade-up" data-aos-delay="100">
-            <label htmlFor="name">Your Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Victor"
-              required
-            />
-          </div>
-
-          <div className='form-field' data-aos="fade-up" data-aos-delay="200">
-            <label htmlFor="phone">Phone Number</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="e.g., 07012345678"
-              required
-            />
-          </div>
-
           <div className='form-field' data-aos="fade-up" data-aos-delay="300">
-            <label htmlFor="message">Your Message</label>
+            <label htmlFor="message"> </label>
             <textarea
               id="message"
               name="message"
-              placeholder="Speak your mind..."
+              placeholder="SEND YOUR MESSAGE HERE"
               rows="5"
               required
             />

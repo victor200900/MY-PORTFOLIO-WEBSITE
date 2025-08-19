@@ -14,13 +14,8 @@ const Services = () => {
       desc: 'Fast, dynamic user interfaces built with React and Bootstrap.',
       icon: '⚙️',
       aos: 'fade-down'
-    },
-    {
-      title: 'Backend Integration',
-      desc: 'Secure APIs and database connectivity using Node and MongoDB.',
-      icon: '🔐',
-      aos: 'fade-up'
     }
+   
   ]
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import profilePic from '../../assets/pfp.jpg'; // adjust path if needed
+import profilePic from '../../assets/sdfgh.jpg'; // adjust path if needed
 
 const About = () => {
   return (
@@ -17,15 +17,16 @@ const About = () => {
         <div className="about-right" data-aos="fade-left">
           <h2 className="about-title" >About Me</h2>
           <p className="about-text" data-aos="fade-up" data-aos-delay="200">
-            Hi i’m <strong>Victor</strong>, a creative frontend software developer. I blend clean UI design with responsive functionality — turning code into art.  
+            Hi i’m <strong>Victor</strong>, a creative frontend software developer. I blend clean UI design with responsive functionality — turning code into the future.  
             <br /> <br />
-            My goal is to build interfaces that feel like they belong in a high-tech, smooth, immersive, and intuitive. I'm currently learning backend development to become a full-stack dev and create platforms people love.
+            My goal is to build interfaces that feel like they belong in a high-tech, smooth, immersive, and intuitive. I'm currently learning backend development to become a full-stack dev and create platforms that will solve a lot of human problems with solutions.
           </p>
           <div className="about-tags" data-aos="fade-up" data-aos-delay="400">
             <span>React</span>
             <span>Bootstrap</span>
-            <span>MongoDB</span>
-            <span>Anime Lover</span>
+            <span>Html</span>
+            <span>Css</span>
+            <span>Tailwind</span>
             <span>Creative UI</span>
           </div>
         </div>

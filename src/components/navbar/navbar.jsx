@@ -30,8 +30,8 @@ const Navbar = () => {
       className="navbar navbar-expand-lg navbar-dark bg-anime px-3 fixed-top"
     >
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold text-black" href="#home">
-          Hi, am Victor
+        <a className="navbar-brand fw-bold" href="#home">
+        MY PROFILE
         </a>
 
         <button

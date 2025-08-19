@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
 
 .all {
-  background-color: rgba(4, 9, 93, 0.706);
+  background:linear-gradient( to left , rgb(48, 48, 48) , black);
   color: white;
   min-height: 100vh;
    font-family: 'Courier New', Courier, monospace;

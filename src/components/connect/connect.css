@@ -56,10 +56,10 @@ margin-top: 20px;
   justify-content: center;
   gap: 1.5rem;
   font-size: 1.8rem;
-}
+  }
 
 .social-icons a {
-  color: #ffffff;
+  color: #00ff11;
   transition: color 0.3s ease;
 }
 

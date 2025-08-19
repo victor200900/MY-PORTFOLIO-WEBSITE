@@ -28,7 +28,7 @@ const ResumeSection = () => {
               <div className="resume-item mb-3">
                 <h5>Frontend Developer Intern</h5>
                 <span className="resume-date">nov - may 2025</span>
-                <p>Built dynamic UIs with React + Bootstrap. Enhanced user engagement.</p>
+                <p>Built dynamic UIs with React,Bootstrap,Tailwind,Javascript,Html,Css. Enhanced user engagement.</p>
               </div>
               {/* Add more experience items here if needed */}
             </div>
@@ -37,14 +37,19 @@ const ResumeSection = () => {
 
         <div className="row">
           {/* Skills */}
-          <div className="col-md-6 mb-4" cc>
+          <div className="col-md-6 mb-4"  data-aos="fade-up">
             <div className="resume-card p-4 h-100">
               <h4 className="resume-heading mb-3">🧠 Skills</h4>
               <ul className="resume-list">
-                <li>HTML / CSS / JavaScript</li>
+                <li>HTML</li>
+                 <li>Css</li>
+                 <li>Javascript</li>
+
                 <li>ReactJS</li>
                 <li>Bootstrap</li>
                  <li>Tailwind</li>
+                 <li>Git</li>
+
               </ul>
             </div>
           </div>

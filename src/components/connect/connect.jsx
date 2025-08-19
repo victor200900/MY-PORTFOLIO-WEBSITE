@@ -30,7 +30,7 @@ const Connect = () => {
 
       <div className='connect-footer' data-aos="fade-up">
         <div className='footer-box' data-aos="fade-right">
-          <h3 className='footer-name'>Akpan-Victor</h3>
+          <h3 className='footer-name'>Akpan Victor</h3>
           <p className='footer-bio'>
             Let me bring your ideas to life  <br />
             let's connect and create.
@@ -40,7 +40,7 @@ const Connect = () => {
           <h4 className='footer-contact'>Contact</h4>
           <p>
             +234-704-593-9049 <br />
-            vakpan462@gmail.com <br />
+            akpanvictor456@gmail.com <br />
           </p>
         </div>
       </div>
